@@ -1,0 +1,14 @@
+.igncs-n1-sec-inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.igncs-n1-left-des {
+    width: 50%;
+    padding-right: 40px;
+}
+.igncs-n1-rgt-img {
+    width: 50%;
+}
