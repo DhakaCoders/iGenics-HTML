@@ -326,12 +326,15 @@ h6 {
 }
 
 h1,h2,h3,h4,h5,h6 {
+  color: #ffffff;
   margin-top: 0;
   line-height: 1.11  ;
   font-family: 'MontserratBold';
   margin-bottom: 17px;
 } 
-
+.black-title{
+  color:#000000;
+}
 /*.fl-button{
   display: inline-block;
   vertical-align: baseline;
