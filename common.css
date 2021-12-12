@@ -129,7 +129,7 @@ body {
   background-color: #fff;
   color: #000;
   font-size: 24px;
-  line-height: 1.25;
+  line-height: 1.41;
   font-family: 'LatoRegular';
   background: url(assets/images/body-bg.jpg);
 }
@@ -156,11 +156,11 @@ img {
     background-position: center center!important;
 }
 .container {
-  max-width: 1030px;
+  max-width: 1130px;
   width: 100%;
 }
 .fl-page-bdy-controller {
-    max-width: 1170px;
+    max-width: 1600px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -203,7 +203,7 @@ img {
 p { margin: 0; margin-bottom: 27px; }
 a{
   word-wrap: break-word ;
-  color: #001eff;
+  color: #085e8d;
 } 
 a:hover{
   color: #ffa800;
@@ -211,7 +211,9 @@ a:hover{
 sup{
   font-size: 14px;
 }
-strong { font-family: 'LatoBold'; }
+strong { 
+  font-family: 'LatoBold'; 
+}
 .pull-right {
     float: right!important;
 }
@@ -320,22 +322,22 @@ ol li::before {
     top: 3px;
 }
 h1{
-  font-size:70px;
+  font-size:60px;
 }
 h2{
-  font-size: 60px;
+  font-size: 50px;
 }
 h3 {
-  font-size: 48px;
+  font-size: 42px;
 }
 h4 {
-  font-size: 45px;
+  font-size: 36px;
 }
 h5 {
-  font-size: 40px;
+  font-size: 30px;
 }
 h6 {
-  font-size: 36px;
+  font-size: 28px;
 }
 
 h1,h2,h3,h4,h5,h6 {
