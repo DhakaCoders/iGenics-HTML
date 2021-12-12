@@ -223,6 +223,10 @@ p strong.yellow-sm-bg{
 .pull-left {
     float: left!important;
 }
+.plr-50 {
+  padding-left: 50px!important;
+  padding-right: 50px!important
+}
 .plr-35 {
   padding-left: 35px!important;
   padding-right: 35px!important
