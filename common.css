@@ -209,6 +209,9 @@ p span.bg-yellow{
   padding: 2px 0 5px 2px;
   display: inline-block;
 }
+p.yellow-sm-bg {
+    background-image: url(yellow-sm-bg.png);
+}
 .color-black2{
   color:#262728;
 }
