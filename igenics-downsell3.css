@@ -1,3 +1,5 @@
+
+/*=======================n1*/
 .igncs-n1-sec-inner {
     display: flex;
     flex-wrap: wrap;
@@ -11,4 +13,53 @@
 }
 .igncs-n1-rgt-img {
     width: 50%;
+}
+
+/*====================n2*/
+
+
+.igncs-n2-sec-inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.igncs-n2-left-des {
+    width: 64.2%;
+    padding-right:15px;
+}
+
+.igncs-n2-rgt-img {
+    width: 35.8%;
+    padding-left:15px;
+}
+.igncs-n2-left-des p {
+    color: #fff;
+}
+
+.igncs-n2-sec {
+    padding-top: 45px;
+    padding-bottom: 33px;
+}
+
+.igncs-n2-left-des p:last-child {
+    margin-bottom: 0;
+}
+
+
+
+
+/*=======================n3*/
+
+.igncs-n3-sec{
+	background-color: #e7f4fa;
+	padding-top:54px;
+}
+.igncs-n3-sec-img {
+    padding-top: 30px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.igncs-n3-sec {
+    padding-bottom: 45px;
 }
