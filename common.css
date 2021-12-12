@@ -209,8 +209,14 @@ p span.bg-yellow{
   padding: 2px 0 5px 2px;
   display: inline-block;
 }
-p.yellow-sm-bg {
-    background-image: url(yellow-sm-bg.png);
+p span.yellow-sm-bg,
+p strong.yellow-sm-bg{
+    background-image: url(assets/images/yellow-sm-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* display: inline-block; */
+    padding: 0 10px;
+    background-position: left top;
 }
 .color-black2{
   color:#262728;
