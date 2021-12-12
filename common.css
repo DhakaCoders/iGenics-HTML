@@ -191,7 +191,7 @@ a{
   color: #085e8d;
 } 
 a:hover{
-  color: #ffa800;
+  color: #fbb613;
 }
 sup{
   font-size: 14px;
@@ -203,7 +203,7 @@ strong {
     float: right!important;
 }
 p span.bg-yellow{
-  background: #ffe404;
+  background: #fbb613;
   font-family: 'MontserratBold';
   line-height: 23px;
   padding: 2px 0 5px 2px;
