@@ -127,6 +127,39 @@ img {
   padding: 0;
   list-style: none;
 }
+
+
+ul.reset-list,
+ol.reset-list,
+ul.sub-menu,
+.fl-pagi-ctlr ul,
+.reset-slect ul,
+ul.ab-top-menu,
+.fl-pagination-cntlr ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.reset-list > li,
+ul.sub-menu li,
+.fl-pagi-ctlr ul li,
+.reset-slect ul li,
+ul.ab-top-menu li,
+.fl-pagination-cntlr ul li{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin: 0;
+}
+.reset-list li:before,
+ul.sub-menu li:before,
+.fl-pagi-ctlr ul li:before,
+.reset-slect ul li:before,
+ul.ab-top-menu li:before,
+.fl-pagination-cntlr ul li:before{
+  content: none!important;
+}
+
 .overlay-link {
   position: absolute;
   left: 0;
