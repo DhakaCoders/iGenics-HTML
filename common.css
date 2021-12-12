@@ -111,12 +111,12 @@ a,a:hover,a:focus,button:hover,button:focus {
   outline: 0;
 }
 body {
-  background-color: #fff;
+  background-color: #d5dce6;
   color: #000;
   font-size: 24px;
   line-height: 1.41;
-  font-family: 'LatoRegular';
-  background: url(assets/images/body-bg.jpg);
+  font-family: 'MontserratRegular';
+
 }
 img {
   max-width: 100%;
@@ -197,14 +197,14 @@ sup{
   font-size: 14px;
 }
 strong { 
-  font-family: 'LatoBold'; 
+  font-family: 'MontserratBold';
 }
 .pull-right {
     float: right!important;
 }
 p span.bg-yellow{
   background: #ffe404;
-  font-family: 'LatoBold';
+  font-family: 'MontserratBold';
   line-height: 23px;
   padding: 2px 0 5px 2px;
   display: inline-block;
@@ -322,17 +322,17 @@ h5 {
   font-size: 30px;
 }
 h6 {
-  font-size: 28px;
+  font-size: 27px;
 }
 
 h1,h2,h3,h4,h5,h6 {
   margin-top: 0;
-  line-height: 1;
-  font-family: 'FiraSansExtraCondensed-Bold';
+  line-height: 1.11  ;
+  font-family: 'MontserratBold';
   margin-bottom: 17px;
 } 
 
-.fl-button{
+/*.fl-button{
   display: inline-block;
   vertical-align: baseline;
   max-width: 280px;
@@ -361,7 +361,7 @@ h1,h2,h3,h4,h5,h6 {
 .fl-button-cntlr a .fl-button:hover{
     background: linear-gradient(90deg, #c50303,#ff9f9f,#c70202);
     color: #fff;
-}
+}*/
 
 
 
