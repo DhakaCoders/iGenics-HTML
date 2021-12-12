@@ -144,12 +144,11 @@ img {
   max-width: 1130px;
   width: 100%;
 }
-.fl-page-bdy-controller {
-    max-width: 1600px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    background: #fff;
+.container-inner{
+  background: #fff;
+  box-shadow: 0px 0px 13px -5px rgba(0,0,0,0.68);
+-webkit-box-shadow: 0px 0px 13px -5px rgba(0,0,0,0.68);
+-moz-box-shadow: 0px 0px 13px -5px rgba(0,0,0,0.68);
 }
 .color-yellow{
   color: #ffa800;
@@ -223,6 +222,10 @@ p strong.yellow-sm-bg{
 }
 .pull-left {
     float: left!important;
+}
+.plr-50 {
+  padding-left: 50px!important;
+  padding-right: 50px!important
 }
 .plr-35 {
   padding-left: 35px!important;
@@ -378,35 +381,6 @@ h1,h2,h3,h4,h5,h6 {
 
 
 
-@media(max-width: 1199px){
-    .hide-md{
-      display: none!important;
-    }
-    .show-md{
-      display: block!important;
-    }
-    h1{
-      font-size: 60px;
-    }
-    h2{
-      font-size: 55px;
-    }
-    h3 {
-      font-size: 45px;
-    }
-    h4 {
-      font-size: 40px;
-    }
-    h5 {
-      font-size: 38px;
-    }
-    h6{
-      font-size:32px;
-    }
-    p br{
-      display: none;
-    }
-}
 @media(max-width: 991px){
     .hide-sm{
         display: none!important;
@@ -421,22 +395,22 @@ h1,h2,h3,h4,h5,h6 {
       margin-bottom: 35px;
     }
     h1{
-      font-size: 55px;
-    }
-    h2{
       font-size: 50px;
     }
+    h2{
+      font-size: 45px;
+    }
     h3 {
-      font-size: 40px;
-    }
-    h4 {
-      font-size: 38px;
-    }
-    h5 {
       font-size: 35px;
     }
+    h4 {
+      font-size: 30px;
+    }
+    h5 {
+      font-size: 28px;
+    }
     h6{
-      font-size:28px;
+      font-size:26px;
     }
     p br{
         display: none;
@@ -531,22 +505,22 @@ h1,h2,h3,h4,h5,h6 {
        margin-bottom: 20px;
     }
     h1{
-      font-size: 50px;
-    }
-    h2{
       font-size: 45px;
     }
-    h3 {
+    h2{
       font-size: 40px;
     }
+    h3 {
+      font-size: 32px;
+    }
     h4 {
-      font-size: 35px;
+      font-size: 28px;
     }
     h5 {
-      font-size: 30px;
+      font-size: 26px;
     }
     h6{
-      font-size:26px;
+      font-size:24px;
     }
     ol li{
       padding-left: 35px;
@@ -554,22 +528,22 @@ h1,h2,h3,h4,h5,h6 {
 
 }
 @media(max-width: 575px){
-  h1{
-    font-size: 45px;
-  }
-  h2{
-    font-size: 40px;
-  }
-  h3 {
-    font-size: 36px;
-  }
-  h4 {
-    font-size: 32px;
-  }
-  h5 {
-    font-size: 28px;
-  }
-  h6{
-    font-size:24px;
-  }
+    h1{
+      font-size: 42px;
+    }
+    h2{
+      font-size: 36px;
+    }
+    h3 {
+      font-size: 30px;
+    }
+    h4 {
+      font-size: 26px;
+    }
+    h5 {
+      font-size: 24px;
+    }
+    h6{
+      font-size:22px;
+    }
 }
