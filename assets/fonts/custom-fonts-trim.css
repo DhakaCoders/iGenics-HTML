@@ -1,76 +1,95 @@
 @font-face {
-  font-family: 'Barlow-Bold';
-  src: url('assets/fonts/Barlow-Bold/Barlow-Bold.woff2') format('woff2'),
-    url('assets/fonts/Barlow-Bold/Barlow-Bold.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+    font-family: 'Barlow-ExtraBold';
+    src: url('assets/fonts/Barlow-ExtraBold/Barlow-ExtraBold.woff2') format('woff2'),
+        url('assets/fonts/Barlow-ExtraBold/Barlow-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Montserrat-SemiBoldItalic';
+    src: url('assets/fonts/Montserrat-SemiBoldItalic/Montserrat-SemiBoldItalic.woff2') format('woff2'),
+        url('assets/fonts/Montserrat-SemiBoldItalic/Montserrat-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'MontserratBold';
+    src: url('assets/fonts/MontserratBold/MontserratBold.woff2') format('woff2'),
+        url('assets/fonts/MontserratBold/MontserratBold.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'MontserratMedium';
+    src: url('assets/fonts/MontserratMedium/MontserratMedium.woff2') format('woff2'),
+        url('assets/fonts/MontserratMedium/MontserratMedium.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: 'Barlow-ExtraBold';
-  src: url('assets/fonts/Barlow-ExtraBold/Barlow-ExtraBold.woff2') format('woff2'),
-    url('assets/fonts/Barlow-ExtraBold/Barlow-ExtraBold.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+    font-family: 'MontserratRegular';
+    src: url('assets/fonts/MontserratRegular/MontserratRegular.woff2') format('woff2'),
+        url('assets/fonts/MontserratRegular/MontserratRegular.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: 'BarlowCondensed-Bold';
-  src: url('assets/fonts/BarlowCondensed-Bold/BarlowCondensed-Bold.woff2') format('woff2'),
-    url('assets/fonts/BarlowCondensed-Bold/BarlowCondensed-Bold.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-
-@font-face {
-  font-family: 'BarlowCondensed-SemiBold';
-  src: url('assets/fonts/BarlowCondensed-SemiBold/BarlowCondensed-SemiBold.woff2') format('woff2'),
-    url('assets/fonts/BarlowCondensed-SemiBold/BarlowCondensed-SemiBold.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+    font-family: 'MontserratSemiBold';
+    src: url('assets/fonts/MontserratSemiBold/MontserratSemiBold.woff2') format('woff2'),
+        url('assets/fonts/MontserratSemiBold/MontserratSemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: 'LatoRegular';
-  src: url('assets/fonts/LatoRegular/LatoRegular.woff2') format('woff2'),
-    url('assets/fonts/LatoRegular/LatoRegular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+    font-family: 'MyriadPro-Regular';
+    src: url('assets/fonts/MyriadPro-Regular/MyriadPro-Regular.woff2') format('woff2'),
+        url('assets/fonts/MyriadPro-Regular/MyriadPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: 'LatoLight';
-  src: url('assets/fonts/LatoLight/LatoLight.woff2') format('woff2'),
-    url('assets/fonts/LatoLight/LatoLight.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-
-@font-face {
-  font-family: 'LatoBold';
-  src: url('assets/fonts/LatoBold/LatoBold.woff2') format('woff2'),
-    url('assets/fonts/LatoBold/LatoBold.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+    font-family: 'RobotoBlack';
+    src: url('assets/fonts/RobotoBlack/RobotoBlack.woff2') format('woff2'),
+        url('assets/fonts/RobotoBlack/RobotoBlack.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: 'LatoSemibold';
-  src: url('assets/fonts/LatoSemibold/LatoSemibold.woff2') format('woff2'),
-    url('assets/fonts/LatoSemibold/LatoSemibold.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+    font-family: 'RobotoBold';
+    src: url('assets/fonts/RobotoBold/RobotoBold.woff2') format('woff2'),
+        url('assets/fonts/RobotoBold/RobotoBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
+@font-face {
+    font-family: 'RobotoMedium';
+    src: url('assets/fonts/RobotoMedium/RobotoMedium.woff2') format('woff2'),
+        url('assets/fonts/RobotoMedium/RobotoMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
-
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url('assets/fonts/RobotoRegular/RobotoRegular.woff2') format('woff2'),
+        url('assets/fonts/RobotoRegular/RobotoRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
