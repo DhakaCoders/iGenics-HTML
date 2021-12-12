@@ -1,0 +1,29 @@
+.igncs-s1-sec{
+	background-repeat: no-repeat;
+	background-position: center left;
+	background-color: rgba(2,106,157,0.8);
+}
+.igncs-s1-sec-inr{
+	padding-bottom: 1px;
+}
+
+.igncs-s2-sec{
+	background: #003e5e;
+	padding-top: 25px;
+	padding-bottom: 10px;
+}
+
+.igncs-s2-sec-inr{
+	display: flex;
+}
+.igncs-s2-rgt-img{
+	order: 2;
+	width: 50%;
+}
+.igncs-s2-lft-des{
+	order: 1;
+	width: 50%;
+}
+.igncs-s2-lft-des p{
+	color: #fff;
+}
