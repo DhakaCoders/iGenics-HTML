@@ -28,7 +28,9 @@
     width: 64.2%;
     padding-right:15px;
 }
-
+.igncs-n2-left-des p strong {
+    color: #fbb613;
+}
 .igncs-n2-rgt-img {
     width: 35.8%;
     padding-left:15px;
