@@ -254,15 +254,14 @@ p span.bg-yellow{
   padding: 2px 0 5px 2px;
   display: inline-block;
 }
-ul li strong.yellow-sm-bg,
-p span.yellow-sm-bg,
-p strong.yellow-sm-bg{
-    background-image: url(assets/images/yellow-sm-bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+ul li strong.yellow-bg,
+p span.yellow-bg,
+p strong.yellow-bg{
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
     /* display: inline-block; */
-    padding: 0 10px;
-    background-position: left top;
+    padding: 0 10px!important;
+    background-position: left top!important;
 }
 
 p span.yellow-big-bg,
