@@ -608,6 +608,15 @@ h1,h2,h3,h4,h5,h6 {
     .pr-30{
       padding-right: 0px!important;
     }
+    ul {
+      padding-bottom: 5px;
+    }
+    ul li{
+        padding: 0 0 22px 35px;
+    }
+    .igncs-k5-left-des ul{
+        padding-top: 25px;
+    }
 }
 
 
