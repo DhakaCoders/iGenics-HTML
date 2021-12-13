@@ -250,6 +250,27 @@ p strong.yellow-sm-bg{
     padding: 0 10px;
     background-position: left top;
 }
+
+p span.yellow-big-bg,
+p strong.yellow-big-bg{
+    background-image: url(assets/images/yellow-big-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* display: inline-block; */
+    padding: 0 10px;
+    background-position: left top;
+}
+
+p span.yellow-md-bg,
+p strong.yellow-md-bg{
+    background-image: url(assets/images/yellow-md-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* display: inline-block; */
+    padding: 0 10px;
+    background-position: left top;
+}
+
 .color-black2{
   color:#262728;
 }
