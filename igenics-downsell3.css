@@ -246,7 +246,7 @@
     -moz-box-shadow: 0 2px 13px -10px #000;
 }
 .fl-pkg-grd-controller > ul {
-    margin: -15px;
+    margin: -15px!important;
 }
 .fl-pkg-grd-controller > ul > li{
     float: left;
@@ -574,11 +574,17 @@
         border-top: 20px solid #003c5b;
         border-right: 15px solid #003c5b00;
     }
-    .igncs-n5-sec-inner{
-        display: none;
-    }
     .igncs-n4-sec-rgt-des {
         width: 60%;
+    }
+    .fl-pkg-grd-col-fea-img div img {
+        height: 275px;
+    }
+    .fl-pkg-grd-controller > ul > li {
+        padding: 0 10px;
+    }
+    .fl-pkg-grd-controller > ul {
+        margin: -10px!important;
     }
 }
 @media(max-width: 991px){
@@ -621,6 +627,81 @@
         width: 100%;
     }
 
+    .igncs-n1-rgt-img {
+        width: 100%;
+        order: 1;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .igncs-n1-left-des {
+        width: 100%;
+        order: 2;
+    }
+    .igncs-n1-rgt-img img {
+        max-width: 400px;
+        width: 100%;
+    }
+    .igncs-n5-sec-rgt-img {
+        width: 100%;
+        order: 1;
+        text-align: center;
+    }
+
+    .igncs-n5-sec-lft-des {
+        width: 100%;
+        order: 2;
+        padding-right: 0;
+        padding-top: 10px;
+    }
+    .fl-pkg-grd-col-hdr span{
+        font-size: 24px;
+    }
+    .fl-pkg-grd-col-hdr strong{
+        font-size: 24px;
+    }
+    .fl-pkg-grd-col-fea-img div img {
+        height: 260px;
+    }
+    .fl-pkg-save-price > strong{
+        font-size: 30px;
+    }
+    .fl-pkg-price strong{
+        font-size: 80px;
+    }
+    .fl-pkg-price:before {
+        left: -20px;
+        top: -3px;
+        font-size: 78px;
+    }
+    .fl-pkg-price strong:after {
+        width: 14px;
+        height: 14px;
+        right: -17px;
+        margin-bottom: 4px;
+    }
+    .fl-pkg-price sub {
+        right: -21px;
+        font-size: 29px;
+        bottom: 20px;
+    }
+    .fl-pkg-price sup {
+        right: 0px;
+        font-size: 46px;
+    }
+    .fl-pkg-grd-ftr ul li{
+        padding-left: 0;
+        padding: 15px 0 18px 0px;
+    }
+    .fl-pkg-grd-ftr ul li em {
+        top: -1px;
+    }
+    .fl-pkg-grd-ftr ul li > span {
+        padding-left: 30px;
+    }
+    .fl-pkg-grd-ftr ul li em.li-rgt-img {
+        right: -57px;
+    }
 }
 @media(max-width: 767px){
     .igncs-n2-left-des {
@@ -648,6 +729,24 @@
     .igncs-n4-sec-lft-img img {
         margin-left: -30px;
     }
+    .igncs-n5-sec-des {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .fl-pkg-grd-controller > ul > li {
+        float: initial;
+        margin-bottom: 20px;
+        width: 100%
+    }
+    .fl-pkg-grd-col-btm-bdr {
+        max-width: 400px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .igncs-n5-sec {
+        padding-bottom: 40px;
+    }
 }
 
 
@@ -663,8 +762,72 @@
         padding-top: 25px;
         padding-bottom: 10px;
     }
+    .igncs-n1-rgt-img img {
+        max-width: 350px;
+        width: 100%;
+    }
+    .igncs-n5-sec {
+        padding-bottom: 35px;
+    }
+   
 }
 @media(max-width: 480px){
     .igncs-n4-sec-heading{
-        background-size: cover;    }
+        background-size: cover;    
+    }
+    .igncs-n5-sec-heading {
+        background-position: left 0 top 0px!important;
+    }
+     .fl-pkg-grd-ftr {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .fl-pkg-grd-col-fea-img div img {
+        height: 245px;
+    }
+}
+@media(max-width: 359px){
+    .fl-pkg-grd-col-fea-img div img {
+        height: 215px;
+    }
+    .fl-pkg-save-price > strong {
+        font-size: 27px;
+    }
+    .fl-pkg-price strong {
+        font-size: 70px;
+    }
+    .fl-pkg-price:before {
+        left: -15px;
+        top: 1px;
+        font-size: 70px;
+    }
+    .fl-pkg-price strong:after {
+        width: 11px;
+        height: 11px;
+        right: -15px;
+        margin-bottom: 8px;
+    }
+    .fl-pkg-price sub {
+        right: -15px;
+        font-size: 27px;
+        bottom: 18px;
+    }
+    .fl-pkg-price sup {
+        right: 9px;
+        font-size: 42px;
+        top: 0;
+    }
+    .fl-pkg-grd-ftr ul li{
+        font-size: 17px;
+    }
+    .fl-pkg-grd-ftr ul li em {
+        top: -2px;
+    }
+    .fl-pkg-grd-ftr ul li > span br{
+        display: none;
+    }
+    .fl-pkg-grd-ftr {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
