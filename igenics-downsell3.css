@@ -329,10 +329,11 @@
     border-top-left-radius: 8px;
 }
 .order1 .fl-pkg-grd-col-hdr span{
-    text-shadow: 0px 1px #b82121;
+    text-shadow: 0px 1px #2092cd;
 }
 .order2 .fl-pkg-grd-col-hdr span{
-    text-shadow: 0px 1px #2092cd;
+    text-shadow: 0px 1px #b82121;
+    
 }
 .fl-pkg-grd-col-hdr strong {
     padding: 10px 10px 29px 10px;
