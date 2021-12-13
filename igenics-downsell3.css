@@ -578,6 +578,15 @@
     .igncs-n3-sec {
         padding-top: 35px;
     }
+    .igncs-n3-sec-img{
+        padding-top: 10px;
+    }
+    .igncs-n3-sec {
+        padding-bottom: 10px;
+    }
+    .igncs-n3-sec-img-inner{
+        padding-bottom: 20px;
+    }
 }
 
 
