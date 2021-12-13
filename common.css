@@ -254,6 +254,7 @@ p span.bg-yellow{
   padding: 2px 0 5px 2px;
   display: inline-block;
 }
+ul li strong.yellow-sm-bg,
 p span.yellow-sm-bg,
 p strong.yellow-sm-bg{
     background-image: url(assets/images/yellow-sm-bg.png);
