@@ -414,7 +414,7 @@ ul li::before {
     background-repeat: no-repeat!important;
     width: 20px;
     height: 20px;
-    margin-top: 2px;
+    margin-top: 4px;
     background-size: 100% auto;
 }
 h1{
