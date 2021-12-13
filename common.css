@@ -234,7 +234,8 @@ p {
 a{
   word-wrap: break-word ;
   color: #085e8d;
-} 
+}
+
 a:hover{
   color: #fbb613;
 }
@@ -246,6 +247,13 @@ strong {
 }
 .pull-right {
     float: right!important;
+}
+.mm-lr{
+  margin-left: -35px;
+  margin-right: -35px;
+}
+i,em{
+  font-style: italic;
 }
 /*p span.bg-yellow{
   background: #fbb613;
