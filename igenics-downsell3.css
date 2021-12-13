@@ -563,6 +563,26 @@
         width: 100%;
         height: 100%;
     }
+    .igncs-n4-sec-heading:after {
+        border-top: 20px solid #003c5b;
+        border-left: 15px solid #003c5b00;
+    }
+    .igncs-n4-sec-heading:before {
+        border-top: 20px solid #003c5b;
+        border-right: 15px solid #003c5b00;
+    }
+    .igncs-n5-sec-inner{
+        display: none;
+    }
+}
+@media(max-width: 991px){
+    .igncs-n4-sec-heading h4:not(:last-child) {
+        margin-bottom: 30px;
+    }
+    .igncs-n4-sec-heading h4 br{
+        display: none;
+    }
+
 }
 @media(max-width: 767px){
     .igncs-n2-left-des {
