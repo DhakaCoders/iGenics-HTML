@@ -234,7 +234,8 @@ p {
 a{
   word-wrap: break-word ;
   color: #085e8d;
-} 
+}
+
 a:hover{
   color: #fbb613;
 }
@@ -246,6 +247,14 @@ strong {
 }
 .pull-right {
     float: right!important;
+}
+.mm-lr{
+  margin-left: -35px;
+  margin-right: -35px;
+}
+i,em{
+  font-family: 'Montserrat-SemiBoldItalic';
+
 }
 /*p span.bg-yellow{
   background: #fbb613;
@@ -478,7 +487,12 @@ h1,h2,h3,h4,h5,h6 {
 }*/
 
 
-
+@media(max-width: 1199px){
+  .mm-lr{
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+}
 
 @media(max-width: 991px){
     .hide-sm{
