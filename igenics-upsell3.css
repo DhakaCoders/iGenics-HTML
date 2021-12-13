@@ -19,6 +19,7 @@
 
 .igncs-up-n2-sec-rgt-img {
     width: 33%;
+    margin-top: -25px;
 }
 
 .igncs-up-n2-sec-des {
@@ -28,6 +29,9 @@
 .igncs-up-n1-sec-des p,
 .igncs-up-n2-sec-des p{
 	line-height: 1.2;
+}
+.igncs-up-n1-sec-des p{
+    margin-bottom: 17px;
 }
 .igncs-up-n2-sec-heading {
     background: #00354e;
@@ -63,6 +67,7 @@
 
 .igncs-up-n3-sec-lft-des {
     width: 63.8%;
+    padding-right: 48px;
 }
 
 .igncs-up-n3-sec-rgt-img {
