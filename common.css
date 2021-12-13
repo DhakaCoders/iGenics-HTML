@@ -261,7 +261,7 @@ p strong.yellow-bg{
     background-repeat: no-repeat!important;
     background-size: 100% 100%!important;
     padding: 0 5px 2px 7px!important;
-    margin-left: -6px;
+    margin-left: -7px;
     line-height: 1;
     background-position: center!important;
 }
@@ -269,7 +269,10 @@ p strong.yellow-bg{
 p strong.yellow-bg-lineH{
   line-height: 1.4;
 }
-
+p strong.secondYellow-bg{
+  padding: 0 7px 2px 14px!important;
+  margin-left: -13px;
+}
 /*p span.yellow-big-bg,
 p strong.yellow-big-bg{
     background-image: url(assets/images/yellow-big-bg.png);
