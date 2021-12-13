@@ -136,9 +136,14 @@
 	border: 2px solid #072859;
 	padding-left: 30px;
 	padding-right: 30px;
+	padding-top: 18px;
+	padding-bottom: 17px;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
+}
+.countdown{
+	margin-left: auto;
 }
 .countdown-module-lft{
 	padding-right: 15px;
@@ -161,14 +166,25 @@
 #seconds{
 	padding: 0 13px;	
 }
+.timer-digits{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
 .timer-digits span{
 	font-size: 38px;
 	margin-bottom: 0;
 	background-position: center center!important;
 	background-repeat: no-repeat!important;
-	background-size: cover!important;
+	background-size: 100% 100%!important;
 	border-radius: 4px;
 	font-family: 'Oswald-SemiBold';
+	width: 46px;
+	height: 59px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 0 3px 0;
 }
 .timer-digits span:first-of-type{
 	margin-right: 8px;
@@ -178,6 +194,7 @@
 	font-size: 20px;
 	color: #fff;
 	line-height: 1;
+	text-align: center;
 	text-transform: uppercase;
 }
 
@@ -322,6 +339,9 @@
 
 /*responsive*/
 @media(max-width: 1199px){
+	.header-innr{
+		padding: 30px;
+	}
 	.fl-ftr-des{
 		padding: 0;
 	}
