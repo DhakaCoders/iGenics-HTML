@@ -4,12 +4,14 @@
 /*header*/
 .fl-hdr{
 	background: #fff;
+	-webkit-box-shadow:0px 3px 7px 1px #b4bac3;
+	box-shadow: 0px 3px 7px 1px #b4bac3;
 }
 .header-innr{
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
-	padding: 20px 10px 20px 50px;
+	padding: 22px 10px 20px 50px;
 }
 .hdr-left{
 
@@ -20,6 +22,7 @@
 .hdr-rgt{
 	margin-left: auto;
 	width: 64%;
+	padding-bottom: 8px;
 }
 .fl-shipping{
 	margin-left: -7px;
@@ -95,7 +98,7 @@
     display: inline-block;
     text-transform: uppercase;
     margin-bottom: 0;
-    word-break: break-all;
+    word-break: break-word;
     font-family: 'MontserratSemiBold';
 }
 
@@ -204,6 +207,7 @@
 .igncsdm-sec1-imgDesc-cntlr{
 	display: flex;
 	flex-wrap: wrap;
+	margin-bottom: 20px;
 }
 .igncsdm-sec1-lft{
 	width: 37.5%;
@@ -393,10 +397,13 @@
 		width: 42%;
 	}
 	.fl-shipping-col-02:before {
-		width: 43%;
+		width: 42%;
 	}
 	.fl-shipping-col-02:after {
-		width: 43%;
+		width: 42%;
+	}
+	.countdown-hdding-title{
+		font-size: 23px;
 	}
 }
 @media(max-width: 767px){
@@ -412,24 +419,42 @@
 	.fl-shipping-col{
 		width: 30%;
 	}
+	.fl-shipping-col-02{
+		width: 40%;
+	}
 	.fl-shipping-col:before{
 		width: 40%;
 	}
 	.fl-shipping-col:after{
 		width: 40%;
 	}
-	.fl-shipping-col-02{
-		width: 40%;
-	}
 	.fl-shipping-col-02:before {
-		width: 43%;
+		width: 42%;
 	}
 	.fl-shipping-col-02:after {
-		width: 43%;
+		width: 42%;
+	}
+	.fl-shipping strong{
+		font-size: 16px;
+		line-height: 1.2;
+	}
+	.countdown-hdding-title{
+		font-size: 22px;
 	}
 }
 @media(max-width: 639px){
-	
+	.fl-shipping-col:before{
+		width: 37%;
+	}
+	.fl-shipping-col:after{
+		width: 37%;
+	}
+	.fl-shipping-col-02:before {
+		width: 40%;
+	}
+	.fl-shipping-col-02:after {
+		width: 40%;
+	}
 }
 @media(max-width: 575px){
 	.fl-ftr-nav ul li{
@@ -438,5 +463,38 @@
 	}
 	.fl-ftr-nav ul li:not(:last-child):after{
 		height: 18px;
+	}
+	.fl-shipping-col:before{
+		width: 33%;
+	}
+	.fl-shipping-col:after{
+		width: 33%;
+	}
+	.fl-shipping-col-02:before {
+		width: 35%;
+	}
+	.fl-shipping-col-02:after {
+		width: 35%;
+	}
+	.fl-shipping strong{
+		font-size: 14px;
+		line-height: 1.2;
+	}
+}
+@media(max-width: 359px){
+	.fl-shipping strong {
+		font-size: 12px;
+	}
+	.fl-shipping-col:before{
+		width: 28%;
+	}
+	.fl-shipping-col:after{
+		width: 28%;
+	}
+	.fl-shipping-col-02:before {
+		width: 32%;
+	}
+	.fl-shipping-col-02:after {
+		width: 32%;
 	}
 }
