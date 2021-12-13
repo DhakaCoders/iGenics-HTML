@@ -247,44 +247,49 @@ strong {
 .pull-right {
     float: right!important;
 }
-p span.bg-yellow{
+/*p span.bg-yellow{
   background: #fbb613;
   font-family: 'MontserratBold';
   line-height: 23px;
   padding: 2px 0 5px 2px;
   display: inline-block;
-}
+}*/
+
 ul li strong.yellow-bg,
 p span.yellow-bg,
 p strong.yellow-bg{
     background-repeat: no-repeat!important;
-    background-size: cover!important;
-    padding: 0 10px!important;
-    margin-left: -10px;
-    line-height: 1.3;
-    background-position: left top!important;
+    background-size: 100% 100%!important;
+    padding: 0 5px 2px 7px!important;
+    margin-left: -6px;
+    line-height: 1;
+    background-position: center!important;
 }
 
-p span.yellow-big-bg,
+p strong.yellow-bg-lineH{
+  line-height: 1.4;
+}
+
+/*p span.yellow-big-bg,
 p strong.yellow-big-bg{
     background-image: url(assets/images/yellow-big-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    /* display: inline-block; */
+     display: inline-block; 
     padding: 0 10px;
     background-position: left top;
-}
+}*/
 
-p span.yellow-md-bg,
+/*p span.yellow-md-bg,
 p strong.yellow-md-bg{
     background-image: url(assets/images/yellow-md-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    /* display: inline-block; */
+     display: inline-block; 
     padding: 0 10px;
     background-position: left top;
 }
-
+*/
 .color-black2{
   color:#262728;
 }
