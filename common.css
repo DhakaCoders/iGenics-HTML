@@ -243,6 +243,7 @@ sup{
 }
 strong { 
   font-family: 'MontserratBold';
+  margin-left: -10px;
 }
 .pull-right {
     float: right!important;
@@ -259,7 +260,6 @@ p span.yellow-bg,
 p strong.yellow-bg{
     background-repeat: no-repeat!important;
     background-size: cover!important;
-    /* display: inline-block; */
     padding: 0 10px!important;
     background-position: left top!important;
 }
