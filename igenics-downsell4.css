@@ -220,3 +220,46 @@ p strong.yellow{
         width: 35%;
     }
 }
+@media (max-width: 991px){
+    .igncs-k4-rgt-img,
+    .igncs-k4-left-des,
+    .igncs-k3-rgt-img,
+    .igncs-k3-left-des,
+    .igncs-k2-rgt-img,
+    .igncs-k2-left-des,
+    .igncs-k1-lft-des,
+    .igncs-k1-rgt-img{
+        width: 100%;
+    }
+    .igncs-k1-rgt-img-cntlr img {
+        display: block;
+    }
+    .igncs-k1-rgt-img-inline{
+        display: none;
+    }
+    .igncs-k1-rgt-img-cntlr{
+        height: initial;
+    }
+    .igncs-k4-rgt-img,
+    .igncs-k3-rgt-img,
+    .igncs-k2-rgt-img,
+    .igncs-k1-rgt-img{
+        order: 1;
+        margin-bottom: 35px;
+        text-align: center;
+    }
+    .igncs-k4-left-des,
+    .igncs-k3-left-des,
+    .igncs-k2-left-des,
+    .igncs-k1-lft-des{
+        order: 2;
+        padding: 0;
+    }
+    .igncs-k5-rgt-img img, 
+    .igncs-k3-rgt-img-cntlr img{
+        width: initial;
+    }
+    .igncs-k3-rgt-img-cntlr{
+        display: inline-block;
+    }
+}
