@@ -163,6 +163,7 @@
     display: flex;
     flex-wrap: wrap;
     padding-top: 28px;
+    padding-bottom: 35px;
 }
 
 .igncs-n5-sec-rgt-img {
@@ -240,12 +241,12 @@
     -moz-box-shadow: 0 2px 13px -10px #000;
 }
 .fl-pkg-grd-controller > ul {
-    margin: -17px;
+    margin: -15px;
 }
 .fl-pkg-grd-controller > ul > li{
     float: left;
     width: 50%;
-    padding: 0 17px;
+    padding: 0 15px;
 }
 
 /*.fl-pkg-grd-col-btm-bdr{
@@ -286,7 +287,6 @@
 }
 
 .fl-pkg-grd-col{ 
-    padding-bottom: 5px;
     position: relative; 
 }
 
@@ -306,21 +306,27 @@
     color: #fff;
     background-repeat: repeat-x!important;
     background-size: cover!important;
-    margin-bottom: 33px;
+    margin-bottom: 0px;
     border-radius: 5px 5px 0px 0px;
+    background-position: center;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+
 }
 .discount-offer h1 {
     font-family: 'Barlow-ExtraBold';
 }
 .fl-pkg-grd-col-hdr span {
-    font-size: 30px;
+    font-size: 26px;
     line-height: 36px;
-    font-family: 'BarlowCondensed-Bold';
-    padding: 13px 10px 18px;
+    padding: 10px 10px 17px;
+    font-family: 'RobotoBold';
     background-repeat: repeat-x!important;
     border-radius: 5px 5px 0 0;
     text-shadow: 0px 1px #00659a;
-    background-position:100% 100%;
+    background-position: 100% 100%;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
 }
 .order1 .fl-pkg-grd-col-hdr span{
     text-shadow: 0px 1px #b82121;
@@ -329,10 +335,10 @@
     text-shadow: 0px 1px #2092cd;
 }
 .fl-pkg-grd-col-hdr strong {
-    padding: 8px 10px 16px 10px;
+    padding: 10px 10px 29px 10px;
     font-size: 28px;
     line-height: 45px;
-    font-family: 'BarlowCondensed-Bold';
+    font-family: 'RobotoBold';
     text-shadow: 0px 2px #595653;
 }
 .fl-pkg-grd-col-hdr strong br{
@@ -342,13 +348,16 @@
     margin: 0 auto;
     position: relative;
     display: table;
-    padding: 15px 0px 10px;
+    padding: 15px 0px 0px;
 }
-.fl-pkg-grd-col-fea-img div{
+.fl-pkg-grd-col-fea-img div {
     display: inline-block;
     vertical-align: baseline;
-    margin-left:-25px;
-    margin-right:-25px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.fl-pkg-grd-col-fea-img div img {
+    height: 331px;
 }
 .fl-pkg-grd-col-fea-img span{
     position: absolute;
@@ -363,8 +372,8 @@
     right: 32px;
 }
 .fl-pkg-grd-col{
-    background: #f7f7f7;
-    border: 3px solid #fff;
+    background: #ffffff;
+    border: 1px solid #dadada;
     border-radius: 8px;
 }
 .fl-pkg-price{
@@ -378,52 +387,48 @@
 .fl-pkg-price:before {
     content: "$";
     position: absolute;
-    left: -2px;
-    top: -17px;
-    font-size: 42px;
+    left: -25px;
+    top: -8px;
+    font-size: 87px;
     line-height: 100%;
-    font-family: 'Barlow-Bold';
+    font-family: 'RobotoBlack';
     margin-right: 2px;
 }
-.fl-pkg-price:after{
+.fl-pkg-price strong:after {
     content: "";
     position: absolute;
-    width: 7px;
-    height: 7px;
+    width: 17px;
+    height: 15px;
     background: #000;
     border-radius: 100%;
     font-family: 'Barlow-Bold';
-    margin-right: 2px;
-    right: 63px;
-    top: 50%;
-    transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    margin-top: -8px;
+    right: -23px;
+    bottom: 0;
+    margin-bottom: 1px;
 }
 .fl-pkg-price strong {
     font-size: 89px;
-    line-height: 58px;
+    line-height: 70px;
     font-weight: normal;
-    font-family: 'Barlow-Bold';
+    font-family: 'RobotoBlack';
     display: inline-block;
+    position: relative;
 }
 
 .fl-pkg-price sup {
     position: absolute;
-    right: 13px;
-    font-size: 43px;
-    font-family: 'Barlow-Bold';
-    top: -6px;
+    right: -10px;
+    font-size: 50px;
+    font-family: 'RobotoBlack';
+    top: -5px;
     line-height: 100%;
 }
 .fl-pkg-price sub {
     position: absolute;
-    right: -5px;
-    font-size: 35px;
-    bottom: 13px;
-    font-family: 'BarlowCondensed-Regular';
-    color: #007ab5;
+    right: -34px;
+    font-size: 31px;
+    bottom: 16px;
+    font-family: 'RobotoBlack';
 }
 .fl-creditcards{
     padding-left: 8px;
@@ -431,28 +436,36 @@
     text-align: center;
 }
 .fl-pkg-save-price {
-    color: #fe0000;
-    padding-top: 10px;
+    color: #000000;
+    margin-bottom: 15px;
 }
-.fl-pkg-save-price strong {
-    font-family: 'SourceSansPro-Bold';
-    display: block;
+.fl-pkg-save-price > strong {
+    font-family: 'RobotoMedium';
+    display: inline-block;
     font-weight: normal;
-    font-size: 25px;
+    font-size: 34px;
+}
+.fl-pkg-save-price strong.fl-pkg-save-clr-blck {
+    font-family: 'RobotoBlack';
+    display: inline-block;
+}
+.fl-pkg-save-price strong span {
+    font-family: 'RobotoBold';
+    display: inline-block;
 }
 .free-shipping{
   position:relative;
 }
 
-.fl-pkg-grd-ftr{
-  padding-left: 10px;
-  padding-right: 10px;
-  display: table;
-  margin: 0 auto;
-  padding-top: 10px;
+.fl-pkg-grd-ftr {
+    padding-left: 40px;
+    padding-right: 40px;
+    display: table;
+    margin: 0 auto;
+    padding-top: 10px;
 }
-.fl-add-to-cart-btn-img{
-    margin-bottom: 34px;
+.fl-add-to-cart-btn-img {
+    margin-bottom: 13px;
 }
 
 .fl-add-to-cart-btn-img a{
@@ -462,26 +475,38 @@
 .fl-add-to-cart-btn-img a:hover {
     opacity: .9;
 }
-.fl-pkg-grd-ftr ul li{
-    
-    padding: 3px 0 30px 0px;
-    font-size: 16px;
-    line-height: 18px;
-    text-transform: uppercase;
-    font-family: 'Barlow-Medium';
-    text-align:center;
+.fl-pkg-grd-ftr ul li {
+    border-bottom: 1px solid #dadada;
+    padding: 15px 0 23px 0px;
+    font-size: 19px;
+    line-height: 22px;
+    text-align: left;
 }
-.fl-pkg-grd-ftr ul li span{
+.fl-pkg-grd-ftr ul li:last-child{
+	border:none;
+}
+.fl-pkg-grd-ftr ul li span strong {
+    font-family: 'RobotoBlack';
+}
+.fl-pkg-grd-ftr ul li > span{
   position: relative;
   padding-left:35px;
-  font-family: 'Barlow-SemiBold';
+  font-family: 'RobotoRegular';
+  display: inline-block;
+}
+.fl-pkg-grd-ftr ul li > span span {
+    font-family: 'RobotoMedium';
 }
 .fl-pkg-grd-ftr ul li em{
     position: absolute;
     left: 0;
     top: -2px;
 }
-
+.fl-pkg-grd-ftr ul li em.li-rgt-img {
+    right: -66px;
+    left: initial;
+    top: -1px;
+}
 .pkg-area-con-bg-des {
     text-align: center;
     padding-top: 50px;
