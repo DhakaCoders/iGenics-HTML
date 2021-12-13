@@ -93,6 +93,15 @@
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+    font-family: 'Oswald-SemiBold';
+    src: url('Oswald-SemiBold/Oswald-SemiBold.woff2') format('woff2'),
+        url('Oswald-SemiBold/Oswald-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
 
 
 *,*:focus,.btn,.btn:focus {
@@ -364,7 +373,7 @@ ol li {
     position: relative;
 }
 ol li::before {
-    content: "0" counter(my-awesome-counter) ".";
+    content: "i" counter(my-awesome-counter) ".";
     font-size: 20px;
     line-height: 1;
     text-align: center;
