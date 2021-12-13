@@ -21,12 +21,11 @@
     width: 29%;
     order: 2;
 }
-.igncs-k1-rgt-img-inline,
-.igncs-k1-rgt-img-cntlr{
+.igncs-k1-rgt-img-inline{
     height: 100%;
 }
 .igncs-k5-rgt-img img,
-.igncs-k3-rgt-img img,
+.igncs-k3-rgt-img-cntlr img,
 .igncs-k1-rgt-img-cntlr img{
     width: 100%;
     height: auto;
@@ -49,6 +48,7 @@
     -webkit-box-shadow: 0px 1px 23px 10px #f1f1f1;
     -ms-box-shadow: 0px 1px 23px 10px #f1f1f1;
     margin-top: 5px;
+    height: 438px;
 }
 .igncs-k2-sec{
     background-color: #ffffff;
@@ -62,11 +62,11 @@
     flex-wrap: wrap;
 }
 .igncs-k2-left-des{
-    width: 67%;
-    padding-right: 50px;
+    width: 65%;
+    padding-right: 40px;
 }
 .igncs-k2-rgt-img{
-    width: 33%;
+    width: 35%;
 }
 
 .igncs-k4-left-des ul li:nth-child(2),
@@ -88,6 +88,9 @@
 }
 .igncs-k3-rgt-img {
     width: 28%;
+    
+}
+.igncs-k3-rgt-img-cntlr{
     border: 6px solid #fff;
     margin-top: 7px;
 }
@@ -200,4 +203,63 @@ p strong.yellow{
 }
 .igncs-k5-sec-row-3 .igncs-k5-rgt-img{
     width: 30%;
+}
+
+
+
+@media (max-width: 1199px){
+    .igncs-k4-left-des ul li br,
+    .igncs-k2-left-des ul li br,
+    .igncs-k1-lft-des p br{
+        display: none;
+    }
+    .igncs-k1-lft-des{
+        width: 65%;
+    }
+    .igncs-k1-rgt-img{
+        width: 35%;
+    }
+}
+@media (max-width: 991px){
+    .igncs-k4-rgt-img,
+    .igncs-k4-left-des,
+    .igncs-k3-rgt-img,
+    .igncs-k3-left-des,
+    .igncs-k2-rgt-img,
+    .igncs-k2-left-des,
+    .igncs-k1-lft-des,
+    .igncs-k1-rgt-img{
+        width: 100%;
+    }
+    .igncs-k1-rgt-img-cntlr img {
+        display: block;
+    }
+    .igncs-k1-rgt-img-inline{
+        display: none;
+    }
+    .igncs-k1-rgt-img-cntlr{
+        height: initial;
+    }
+    .igncs-k4-rgt-img,
+    .igncs-k3-rgt-img,
+    .igncs-k2-rgt-img,
+    .igncs-k1-rgt-img{
+        order: 1;
+        margin-bottom: 35px;
+        text-align: center;
+    }
+    .igncs-k4-left-des,
+    .igncs-k3-left-des,
+    .igncs-k2-left-des,
+    .igncs-k1-lft-des{
+        order: 2;
+        padding: 0;
+    }
+    .igncs-k5-rgt-img img, 
+    .igncs-k3-rgt-img-cntlr img{
+        width: initial;
+    }
+    .igncs-k3-rgt-img-cntlr{
+        display: inline-block;
+    }
 }
