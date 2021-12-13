@@ -123,7 +123,7 @@ body {
   background-color: #d5dce6;
   color: #000;
   font-size: 24px;
-  line-height: 1.41;
+  line-height: 30px;
   font-family: 'MontserratRegular';
 
 }
@@ -226,7 +226,11 @@ ul.ab-top-menu li:before,
 .text-center{
   text-align: center;
 }
-p { margin: 0; margin-bottom: 27px; }
+p { 
+  margin: 0;
+  margin-bottom: 27px;
+  line-height: 1.23;
+   }
 a{
   word-wrap: break-word ;
   color: #085e8d;
