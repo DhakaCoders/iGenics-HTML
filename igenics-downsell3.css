@@ -616,3 +616,7 @@
         width: 100%;
     }
 }
+@media(max-width: 480px){
+    .igncs-n4-sec-heading{
+        background-size: cover;    }
+}
