@@ -215,10 +215,29 @@
 	    width: 100%;
 	    padding-top: 0;
 	    margin-bottom: 30px;
+	    position: relative;
+	    padding-bottom: 70px;
 	}
 	.igncsus-sec11-des {
 	    width: 100%;
 	    padding-right: 0;
+	}
+	.igncsus-sec11-img {
+	    padding-left: 0;
+	    margin-top: 0;
+	    text-align: center;
+	}
+	.igncsus-sec11-pos-img{
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		-webkit-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		transform: translateX(-50%);
+		
+	}
+	.igncsus-sec11-pos-img img{
+		transform: rotate(180deg);
 	}
 }
 
