@@ -33,6 +33,7 @@
 .igncs-up-k2-rgt-img {
     width: 37%;
 }
+.igncs-up-k8-left-des p:last-child,
 .igncs-up-k7-left-des p:last-child,
 .igncs-up-k6-left-des p:last-child,
 .igncs-up-k5-left-des p:last-child,
@@ -166,12 +167,15 @@
 .igncs-up-k8-sec-inner {
     display: flex;
     flex-wrap: wrap;
+    padding-top: 45px;
+    padding-bottom: 40px;
 }
 .igncs-up-k8-left-des {
-    width: 67%;
+    width: 66%;
+    padding-right: 35px;
 }
 .igncs-up-k8-rgt-img {
-    width: 33%;
+    width: 34%;
 }
 .igncs-up-k8-left-des p{
     color: #fff;
