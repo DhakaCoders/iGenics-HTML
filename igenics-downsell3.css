@@ -723,6 +723,9 @@
     .fl-pkg-grd-ftr ul li em.li-rgt-img {
         right: -57px;
     }
+    .igncs-n4-sec-des{
+        padding-top: 22px;
+    }
 }
 @media(max-width: 767px){
     .igncs-n2-left-des {
