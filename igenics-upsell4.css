@@ -163,3 +163,17 @@
 .igncs-up-k7-rgt-img {
     width: 34%;
 }
+.igncs-up-k8-sec-inner {
+    display: flex;
+    flex-wrap: wrap;
+}
+.igncs-up-k8-left-des {
+    width: 67%;
+}
+.igncs-up-k8-rgt-img {
+    width: 33%;
+}
+.igncs-up-k8-left-des p{
+    color: #fff;
+    line-height: 1.16;
+}
