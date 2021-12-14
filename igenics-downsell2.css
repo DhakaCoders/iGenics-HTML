@@ -14,6 +14,7 @@
 	border-top: 44px solid #003c5b;
     border-right: 32px solid transparent;
     content: "";
+    z-index: -1;
 }
 .igncsds-sec1:before{
 	position: absolute;
@@ -22,6 +23,7 @@
 	border-top: 44px solid #003c5b;
     border-left: 32px solid transparent;
     content: "";
+    z-index: -1;
 }
 .igncsds-sec1{
 	padding-bottom: 5px;
