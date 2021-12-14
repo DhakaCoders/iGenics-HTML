@@ -220,6 +220,10 @@
 .igncsds-sec9{
 	padding-top: 125px;
 	padding-bottom: 125px;
+	box-shadow: 0px 4px 9px 0px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 0px 4px 9px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 4px 9px 0px rgba(0,0,0,0.75);
+	margin-bottom: 10px;
 }
 .igncsds-sec9-inr{
 	text-align: center;
