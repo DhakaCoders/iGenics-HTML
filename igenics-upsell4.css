@@ -355,6 +355,11 @@
     .igncs-up-k1-left-des {
         padding-top: 30px;
     }
+    .igncs-up-k2-sec-inner,
+    .igncs-up-k5-sec-inner{
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 @media(max-width: 479px){
     .igncs-up-k3-arow-img-ctlr{
