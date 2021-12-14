@@ -637,6 +637,7 @@
     .igncs-n1-left-des {
         width: 100%;
         order: 2;
+        padding-right: 0;
     }
     .igncs-n1-rgt-img img {
         max-width: 400px;
@@ -707,12 +708,14 @@
     .igncs-n2-left-des {
         width: 100%;
         order: 2;
+        padding-right: 0;
     }
     .igncs-n2-rgt-img {
         width: 100%;
         order: 1;
         text-align: center;
         margin-bottom: 35px;
+        padding-left: 0;
     }
     .igncs-n3-sec {
         padding-top: 35px;

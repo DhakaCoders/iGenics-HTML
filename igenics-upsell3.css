@@ -146,6 +146,10 @@
     .igncs-up-n3-sec-lft-des {
         width: 100%;
         order: 2;
+        padding-right: 0;
+    }
+    .igncs-up-n3-sec-des a{
+        font-size: 18px;
     }
 }
 @media(max-width: 767px){
