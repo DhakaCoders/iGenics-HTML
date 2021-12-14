@@ -6,7 +6,7 @@
 }
 .igncs-up-k1-left-des {
     width: 62%;
-    padding-right: 30px;
+    padding-right: 35px;
     position: relative;
 }
 .igncs-up-k1-rgt-img {
@@ -33,6 +33,7 @@
 .igncs-up-k2-rgt-img {
     width: 37%;
 }
+.igncs-up-k8-left-des p:last-child,
 .igncs-up-k7-left-des p:last-child,
 .igncs-up-k6-left-des p:last-child,
 .igncs-up-k5-left-des p:last-child,
@@ -47,6 +48,10 @@
 }
 .igncs-up-k3-left-des p{
     line-height: 1.16;
+}
+.igncs-up-k1-left-des ul li::before,
+.igncs-up-k3-left-des ul li::before{
+    background: url(assets/images/list-yellow-icon.png)!important;
 }
 .igncs-up-k1-left-des ul li:last-child{
     padding-bottom: 0;
@@ -166,14 +171,166 @@
 .igncs-up-k8-sec-inner {
     display: flex;
     flex-wrap: wrap;
+    padding-top: 45px;
+    padding-bottom: 40px;
 }
 .igncs-up-k8-left-des {
-    width: 67%;
+    width: 66%;
+    padding-right: 35px;
 }
 .igncs-up-k8-rgt-img {
-    width: 33%;
+    width: 34%;
 }
 .igncs-up-k8-left-des p{
     color: #fff;
     line-height: 1.16;
+}
+
+
+
+@media (max-width: 1199px){
+    .igncs-up-k5-sec-inner{
+        padding: 30px;
+    }
+    .igncs-up-k1-sec-inner{
+        padding: 30px 0;
+    }
+}
+@media (max-width: 991px){
+    .igncs-up-k1-arow-img-ctlr {
+        top: -60px;
+        right: -15px;
+        max-width: 100px;
+        width: 100%;
+    }
+    .igncs-up-k1-sec-inner{
+        padding-top: 40px;
+    }
+    .igncs-up-k2-sec-inner{
+        padding-left: 32px;
+        padding-right: 0px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .igncs-up-k4-left-des{
+        padding-top: 0;
+    }
+    .igncs-up-k7-sec-inr{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+}
+@media (max-width: 767px){
+    .igncs-up-k1-sec-inner {
+        padding-top: 20px;
+    }
+    .igncs-up-k2-sec-inner{
+        padding-top: 20px;
+        padding-bottom: 35px;
+    }
+    .igncs-up-k8-rgt-img,
+    .igncs-up-k8-left-des,
+    .igncs-up-k7-rgt-img,
+    .igncs-up-k7-left-des,
+    .igncs-up-k6-left-des,
+    .igncs-up-k6-rgt-img,
+    .igncs-up-52-rgt-img,
+    .igncs-up-k5-left-des,
+    .igncs-up-k4-rgt-img,
+    .igncs-up-k4-left-des,
+    .igncs-up-k3-rgt-img,
+    .igncs-up-k3-left-des,
+    .igncs-up-k2-left-des,
+    .igncs-up-k2-rgt-img,
+    .igncs-up-k1-rgt-img,
+    .igncs-up-k1-left-des,
+    .igncs-k1-rgt-img{
+        width: 100%;
+    }
+    .igncs-up-k8-rgt-img,
+    .igncs-up-k7-rgt-img,
+    .igncs-up-k6-rgt-img,
+    .igncs-up-52-rgt-img,
+    .igncs-up-k4-rgt-img,
+    .igncs-up-k3-rgt-img,
+    .igncs-up-k2-left-img,
+    .igncs-up-k2-rgt-img,
+    .igncs-up-k1-rgt-img{
+        order: 1;
+        margin-bottom: 20px;
+        text-align: center;
+        padding: 0;
+    }
+    .igncs-up-k8-left-des,
+    .igncs-up-k7-left-des,
+    .igncs-up-k6-left-des,
+    .igncs-up-k5-left-des,
+    .igncs-up-k4-left-des,
+    .igncs-up-k3-left-des,
+    .igncs-up-k2-left-des,
+    .igncs-up-k1-left-des{
+        order: 2;
+        padding: 0;
+    }
+    .igncs-up-k5-rgt-img-cntlr,
+    .igncs-up-k1-rgt-img, 
+    .igncs-up-k2-rgt-img-cntlr{
+        text-align: center;
+    }
+    .igncs-up-k3-rgt-img-cntlr,
+    .igncs-up-k6-rgt-img-cntlr,
+    .igncs-up-k4-rgt-img-cntlr{
+        max-width: 400px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .igncs-up-k6-rgt-img-cntlr img{
+        width: 100%;
+    }
+    .igncs-up-k1-left-des{
+        padding-top: 40px;
+    }
+    .igncs-up-k1-arow-img-ctlr {
+        top: -20px;
+        left: 50%;
+        transform: rotate(-110deg);
+        -ms-transform: rotate(-110deg);
+        -webkit-transform: rotate(-110deg);
+        margin-left: -20px;
+        max-width: 80px;
+    }
+    .igncs-up-k8-rgt-img,
+    .igncs-up-k4-rgt-img,
+    .igncs-up-k6-rgt-img,
+    .igncs-up-k3-rgt-img{
+        margin-bottom: 35px;
+    }
+    .igncs-up-k3-rgt-img-cntlr{
+        padding: 0;
+    }
+    .igncs-up-k8-left-des p br{
+        display: none;
+    }
+    .igncs-up-k2-sec-inner,
+    .igncs-up-k5-sec-inner{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .igncs-up-k3-left-des ul li, .igncs-up-k1-left-des ul li {
+        padding-left: 30px;
+    }
+    .igncs-up-k7-sec.plr-50 {
+        padding-right: 15px!important;
+    }
+}
+
+@media(max-width: 575px){
+    .igncs-up-k1-arow-img-ctlr{
+        max-width: 60px;
+    }
+    .igncs-up-k1-left-des {
+        padding-top: 30px;
+    }
 }
