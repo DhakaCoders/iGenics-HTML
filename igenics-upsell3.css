@@ -3,25 +3,21 @@
     flex-wrap: wrap;
     padding-top: 14px;
 }
-
 .igncs-up-n1-sec-lft-des {
     width: 65.3%;
     padding-top: 12px;
 
 }
-
 .igncs-up-n1-sec-rgt-img {
     width: 34.7%;
 }
 .igncs-up-n2-sec-lft-des {
     width: 67%;
 }
-
 .igncs-up-n2-sec-rgt-img {
     width: 33%;
     margin-top: -25px;
 }
-
 .igncs-up-n2-sec-des {
     display: flex;
     flex-wrap: wrap;
@@ -65,12 +61,10 @@
     flex-wrap: wrap;
     width: 100%;
 }
-
 .igncs-up-n3-sec-lft-des {
     width: 63.8%;
     padding-right: 48px;
 }
-
 .igncs-up-n3-sec-rgt-img {
     width: 36.2%;
     margin-top: -30px;

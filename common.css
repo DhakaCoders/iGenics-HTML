@@ -101,9 +101,6 @@
     font-style: normal;
     font-display: swap;
 }
-
-
-
 *,*:focus,.btn,.btn:focus {
   outline: 0!important;
   text-decoration: none
@@ -125,7 +122,6 @@ body {
   font-size: 24px;
   line-height: 30px;
   font-family: 'MontserratRegular';
-
 }
 img {
   max-width: 100%;
@@ -136,8 +132,6 @@ img {
   padding: 0;
   list-style: none;
 }
-
-
 ul.reset-list,
 ol.reset-list,
 ul.sub-menu,
@@ -168,7 +162,6 @@ ul.ab-top-menu li:before,
 .fl-pagination-cntlr ul li:before{
   content: none!important;
 }
-
 .overlay-link {
   position: absolute;
   left: 0;
@@ -262,14 +255,6 @@ i,em{
   font-family: 'Montserrat-SemiBoldItalic';
 
 }
-/*p span.bg-yellow{
-  background: #fbb613;
-  font-family: 'MontserratBold';
-  line-height: 23px;
-  padding: 2px 0 5px 2px;
-  display: inline-block;
-}*/
-
 ul li strong.yellow-bg,
 p span.yellow-bg,
 p strong.yellow-bg{
@@ -280,7 +265,6 @@ p strong.yellow-bg{
     line-height: 1;
     background-position: center!important;
 }
-
 p strong.yellow-bg-lineH{
   line-height: 1.35;
 }
@@ -291,26 +275,6 @@ p strong.secondYellow-bg{
 .line-height1_3{
   line-height: 1.29!important;
 }
-/*p span.yellow-big-bg,
-p strong.yellow-big-bg{
-    background-image: url(assets/images/yellow-big-bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-     display: inline-block; 
-    padding: 0 10px;
-    background-position: left top;
-}*/
-
-/*p span.yellow-md-bg,
-p strong.yellow-md-bg{
-    background-image: url(assets/images/yellow-md-bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-     display: inline-block; 
-    padding: 0 10px;
-    background-position: left top;
-}
-*/
 .color-black2{
   color:#262728;
 }
@@ -469,36 +433,6 @@ h1,h2,h3,h4,h5,h6 {
 .black-title{
   color:#000000;
 }
-/*.fl-button{
-  display: inline-block;
-  vertical-align: baseline;
-  max-width: 280px;
-  width: 100%;
-    position: relative;
-    color: #fff;
-    border-radius: 5px;
-    font-size: 24px;
-    line-height: 1.1;
-    text-transform: uppercase;
-    text-align: center;
-    padding: 20px 22px 20px;
-    overflow: hidden;
-    letter-spacing: 0.25px;
-    font-family: 'Barlow-ExtraBold';
-    background: linear-gradient(90deg, #332f2c, #686561,#332f2c);
-    box-shadow: 0px 1px 1px 0 #182d64;
-    -moz-box-shadow: 0px 1px 1px 0 #182d64;
-    -webkit-box-shadow: 0px 1px 1px 0 #182d64;
-    transition: background 0.5s linear;
-    -ms-transition: background 0.5s linear;
-    -webkit-transition: background 0.5s linear;
-  
-}
-
-.fl-button-cntlr a .fl-button:hover{
-    background: linear-gradient(90deg, #c50303,#ff9f9f,#c70202);
-    color: #fff;
-}*/
 
 
 @media(max-width: 1199px){
