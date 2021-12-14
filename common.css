@@ -235,8 +235,8 @@ ul.ab-top-menu li:before,
 p { 
   margin: 0;
   margin-bottom: 27px;
-  line-height: 1.23;
-   }
+  line-height: 1.2;
+}
 a{
   word-wrap: break-word ;
   color: #085e8d;
@@ -550,12 +550,13 @@ h1,h2,h3,h4,h5,h6 {
     }
     body {
       font-size: 22px;
+
     }
     sup {
       font-size: 13px;
     }
     p { 
-      margin-bottom: 25px;
+      line-height: 1.23;
     }
     .pull-right {
       float: none!important;
@@ -663,7 +664,7 @@ h1,h2,h3,h4,h5,h6 {
     font-size: 13px;
   }
   p{
-     margin-bottom: 20px;
+     margin-bottom: 25px;
   }
   h1{
     font-size: 45px;
