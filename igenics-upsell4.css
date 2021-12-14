@@ -2,12 +2,13 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    padding: 20px 0;
+    padding: 30px 0;
 }
 .igncs-up-k1-left-des {
     width: 62%;
     padding-right: 35px;
     position: relative;
+    padding-top: 78px;
 }
 .igncs-up-k1-rgt-img {
     width: 38%;
@@ -15,7 +16,7 @@
 }
 .igncs-up-k1-arow-img-ctlr{
     position: absolute;
-    top: -100px;
+    top: -20px;
     right: -25px;
 }
 .igncs-up-k2-sec-inner {
@@ -76,11 +77,17 @@
     padding-right: 25px;
 }
 .igncs-up-k3-rgt-img {
-    width: 46%;
+    width: 46%; 
 }
 .igncs-up-k3-rgt-img-cntlr {
-    margin-left: -25px;
     padding-right: 36px;
+    text-align: right;
+    position: relative;
+}
+.igncs-up-k3-arow-img-ctlr {
+    position: absolute;
+    top: 5px;
+    left: -22px;
 }
 .igncs-up-k3-left-des ul {
     padding-bottom: 0;
@@ -106,9 +113,9 @@
 }
 .igncs-up-k4-rgt-img-cntlr {
     border: 6px solid #fff;
-    box-shadow: 0px 1px 23px 10px #f1f1f1;
-    -webkit-box-shadow: 0px 1px 23px 10px #f1f1f1;
-    -ms-box-shadow: 0px 1px 23px 10px #f1f1f1;
+    box-shadow: 0px 1px 23px 10px #dfdcdc;
+    -webkit-box-shadow: 0px 1px 23px 10px #dfdcdc;
+    -ms-box-shadow: 0px 1px 23px 10px #dfdcdc;
 }
 .igncs-up-k5-left-des p{
     line-height: 1.2;
@@ -164,6 +171,7 @@
 .igncs-up-k7-left-des {
     width: 66%;
     padding-right: 30px;
+    padding-top: 20px;
 }
 .igncs-up-k7-rgt-img {
     width: 34%;
@@ -195,11 +203,15 @@
     .igncs-up-k1-sec-inner{
         padding: 30px 0;
     }
+    .igncs-up-k3-arow-img-ctlr {
+        max-width: 120px;
+        width: 100%;
+    }
 }
 @media (max-width: 991px){
     .igncs-up-k1-arow-img-ctlr {
-        top: -60px;
-        right: -15px;
+        top: 5px;
+        right: 0px;
         max-width: 100px;
         width: 100%;
     }
@@ -218,6 +230,12 @@
     .igncs-up-k7-sec-inr{
         padding-top: 30px;
         padding-bottom: 30px;
+    }
+    .igncs-up-k7-left-des{
+        padding-top: 0;
+    }
+    .igncs-up-k3-arow-img-ctlr{
+        max-width: 98px;
     }
     
 }
@@ -324,6 +342,10 @@
     .igncs-up-k7-sec.plr-50 {
         padding-right: 15px!important;
     }
+    .igncs-up-k3-arow-img-ctlr{
+        top: 30px;
+        left: 28px;
+    }
 }
 
 @media(max-width: 575px){
@@ -332,5 +354,12 @@
     }
     .igncs-up-k1-left-des {
         padding-top: 30px;
+    }
+}
+@media(max-width: 479px){
+    .igncs-up-k3-arow-img-ctlr{
+        top: 20px;
+        left: 0;
+        max-width: 70px;
     }
 }
