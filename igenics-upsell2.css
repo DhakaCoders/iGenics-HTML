@@ -1,6 +1,9 @@
 .igncsdus-sec2 .igncsds-sec2-rgt-img{
 	height: 480px;
 }
+.igncsdus-sec2 .igncsds-sec2-rgt-img-ctlr{
+	padding-top: 8px;
+}
 
 .igncsus-sec3-inr .igncsds-sec3-lft-img{
 	order: 2;
@@ -9,6 +12,8 @@
 	order: 1;
 	padding-left: 0;
 	padding-right: 20px;
+	position: relative;
+	z-index: 2;
 }
 
 .igncsus-sec3-inr .igncsds-sec3-lft-img-inr{
@@ -18,11 +23,20 @@
 .igncsus-sec3-inr .igncsds-sec3-lft-img-inr img{
 	display: none;
 }
+.igncsus-sec3 .igncsds-sec3-lft-img{
+	margin-right: -15px;
+}
+.igncsus-sec3-inr .igncsds-sec3-lft-img{
+	width: 52%;
+	margin-left: -95px;
+	position: relative;
+	z-index: 1;
+}
 
 .igncsus-sec4{
 	background: #00354e;
 	padding-top: 30px;
-	padding-bottom: 5px;
+	padding-bottom: 12px;
 }
 .igncsus-sec4-inr{
 	text-align: center;
@@ -30,6 +44,11 @@
 
 .igncsus-sec5 .igncsds-sec7-des{
 	padding-right: 0
+}
+
+.igncsus-sec6.igncsds-sec8{
+	padding-top: 20px;
+	padding-bottom: 2px;
 }
 
 .igncsus-sec8{
@@ -40,7 +59,7 @@
 
 .igncsus-sec8-mdl-img{
 	margin-left: -17px;
-	padding-bottom: 15px;
+	padding-bottom: 25px;
 	padding-top: 10px;
 }
 
@@ -52,11 +71,15 @@
     background-position: center!important;
     display: inline-block;
     padding: 2px 18px 5px 50px;
-    margin-bottom: 20px;
+    margin-bottom: 27px;
     margin-left: -15px;
 }
 .igncsus-sec8-btm-des ul li:before{
 	left: 15px;
+}
+.igncsus-sec8-btm-des ul li strong{
+	font-family: 'MontserratMedium';
+	font-weight: 500;
 }
 
 .igncsus-sec10{
@@ -118,4 +141,9 @@
 	order: 1;
 	width: 55%;
 	padding-right: 10px;
+}
+
+.igncsus-sec11-img{
+	padding-left: 50px;
+    margin-top: -36px;
 }
