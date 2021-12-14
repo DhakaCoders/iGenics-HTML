@@ -258,12 +258,15 @@ p strong.yellow{
         order: 2;
         padding: 0;
     }
-    .igncs-k5-rgt-img img, 
+    /*.igncs-k5-rgt-img img, 
     .igncs-k3-rgt-img-cntlr img{
         width: initial;
-    }
+    }*/
     .igncs-k3-rgt-img-cntlr{
-        display: inline-block;
+        max-width: 400px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
     }
     .igncs-k5-sec-row-2 .igncs-k5-left-des{
         padding-right: 10px;
@@ -340,5 +343,11 @@ p strong.yellow{
     }
     .igncs-k5-left-des ul {
         padding-top: 0px;
+    }
+    .igncs-k5-rgt-img{
+        max-width: 400px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
