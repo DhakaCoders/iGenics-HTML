@@ -8,7 +8,7 @@
     width: 62%;
     padding-right: 35px;
     position: relative;
-    padding-top: 30px;
+    padding-top: 78px;
 }
 .igncs-up-k1-rgt-img {
     width: 38%;
@@ -16,7 +16,7 @@
 }
 .igncs-up-k1-arow-img-ctlr{
     position: absolute;
-    top: -70px;
+    top: -20px;
     right: -25px;
 }
 .igncs-up-k2-sec-inner {
@@ -210,7 +210,7 @@
 }
 @media (max-width: 991px){
     .igncs-up-k1-arow-img-ctlr {
-        top: -45px;
+        top: 5px;
         right: 0px;
         max-width: 100px;
         width: 100%;
