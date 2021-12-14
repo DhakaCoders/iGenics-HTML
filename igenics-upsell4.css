@@ -8,6 +8,7 @@
     width: 62%;
     padding-right: 35px;
     position: relative;
+    padding-top: 30px;
 }
 .igncs-up-k1-rgt-img {
     width: 38%;
@@ -15,7 +16,7 @@
 }
 .igncs-up-k1-arow-img-ctlr{
     position: absolute;
-    top: -95px;
+    top: -70px;
     right: -25px;
 }
 .igncs-up-k2-sec-inner {
