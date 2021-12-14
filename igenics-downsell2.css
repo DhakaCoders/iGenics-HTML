@@ -239,6 +239,18 @@
 	.igncsds-sec7-hdr h4 br{
 		display: none;
 	}
+	.igncsds-sec1:before,
+	.igncsds-sec4:before,
+	.igncsds-sec8:before{
+		border-top: 22px solid #003c5b;
+    	border-left: 15px solid transparent;
+	}
+	.igncsds-sec1:after,
+	.igncsds-sec4:after,
+	.igncsds-sec8:after{
+		border-top: 22px solid #003c5b;
+    	border-right: 15px solid transparent;
+	}
 }
 @media(max-width: 991px){
 	.igncsds-sec2-inr {
