@@ -343,8 +343,12 @@
         padding-right: 15px!important;
     }
     .igncs-up-k3-arow-img-ctlr{
-        top: 30px;
-        left: 28px;
+        left: 50%;
+        bottom: 0;
+        top: initial;
+        margin-left: -25px;
+        margin-bottom: -10px;
+        transform: rotate(180deg);
     }
 }
 
@@ -355,11 +359,14 @@
     .igncs-up-k1-left-des {
         padding-top: 30px;
     }
+    .igncs-up-k2-sec-inner,
+    .igncs-up-k5-sec-inner{
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 @media(max-width: 479px){
     .igncs-up-k3-arow-img-ctlr{
-        top: 20px;
-        left: 0;
         max-width: 70px;
     }
 }
