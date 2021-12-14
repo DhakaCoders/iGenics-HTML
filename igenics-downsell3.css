@@ -87,7 +87,7 @@
 .igncs-n4-sec-heading:after {
     position: absolute;
     border-top: 44px solid #003c5b;
-    border-left: 35px solid #003c5b00;
+    border-left: 32px solid #003c5b00;
     content: "";
     left: 0;
     top: 100%;
@@ -95,7 +95,7 @@
 .igncs-n4-sec-heading:before{
     position: absolute;
     border-top: 44px solid #003c5b;
-    border-right: 35px solid #003c5b00;
+    border-right: 32px solid #003c5b00;
     content: "";
     right: 0;
     top: 100%;
@@ -140,7 +140,9 @@
     top: -79px;
     z-index: 1;
 }
-
+.igncs-n4-sec-heading h4 {
+    text-transform: capitalize;
+}
 
 
 
