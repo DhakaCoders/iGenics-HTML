@@ -188,9 +188,9 @@ ul.ab-top-menu li:before,
 }
 .container-inner{
   background: #fff;
-  box-shadow: 0px 0px 13px -5px rgba(0,0,0,0.68);
--webkit-box-shadow: 0px 0px 13px -5px rgba(0,0,0,0.68);
--moz-box-shadow: 0px 0px 13px -5px rgba(0,0,0,0.68);
+  box-shadow: 0px 0px 19px 0px rgb(0 0 0 / 25%);
+  -webkit-box-shadow: 0px 0px 19px 0px rgb(0 0 0 / 25%);
+  -moz-box-shadow: 0px 0px 19px 0px rgb(0 0 0 / 25%);
 }
 .color-yellow{
   color: #ffa800;
@@ -249,8 +249,8 @@ strong {
     float: right!important;
 }
 .mm-lr{
-  margin-left: -35px;
-  margin-right: -35px;
+  margin-left: -32px;
+  margin-right: -32px;
 }
 i,em{
   font-family: 'Montserrat-SemiBoldItalic';
@@ -657,7 +657,8 @@ h1,h2,h3,h4,h5,h6 {
       font-size:24px;
     }
     ol li{
-      padding-left: 35px;
+      line-height: 1.4;
+      padding-bottom: 12px;
     }
     .plr-50 {
       padding-left: 15px!important;
