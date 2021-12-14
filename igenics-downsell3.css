@@ -819,27 +819,27 @@
         font-size: 27px;
     }
     .fl-pkg-price strong {
-        font-size: 70px;
+        font-size: 65px;
     }
     .fl-pkg-price:before {
-        left: -15px;
-        top: 1px;
-        font-size: 70px;
+        left: -12px;
+        top: 4px;
+        font-size: 64px;
     }
     .fl-pkg-price strong:after {
         width: 11px;
         height: 11px;
         right: -15px;
-        margin-bottom: 8px;
+        margin-bottom: 10px;
     }
-    .fl-pkg-price sub {
-        right: -15px;
-        font-size: 27px;
-        bottom: 18px;
+   .fl-pkg-price sub {
+        right: -11px;
+        font-size: 26px;
+        bottom: 19px;
     }
     .fl-pkg-price sup {
-        right: 9px;
-        font-size: 42px;
+        right: 11px;
+        font-size: 40px;
         top: 0;
     }
     .fl-pkg-grd-ftr ul li{
