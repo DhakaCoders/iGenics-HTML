@@ -188,9 +188,9 @@ ul.ab-top-menu li:before,
 }
 .container-inner{
   background: #fff;
-  box-shadow: 0px 0px 19px 0px rgb(0 0 0 / 25%)
-  -webkit-box-shadow: 0px 0px 19px 0px rgb(0 0 0 / 25%)
-  -moz-box-shadow: 0px 0px 19px 0px rgb(0 0 0 / 25%)
+  box-shadow: 0px 0px 19px 0px rgb(0 0 0 / 25%);
+  -webkit-box-shadow: 0px 0px 19px 0px rgb(0 0 0 / 25%);
+  -moz-box-shadow: 0px 0px 19px 0px rgb(0 0 0 / 25%);
 }
 .color-yellow{
   color: #ffa800;
@@ -536,6 +536,9 @@ h1,h2,h3,h4,h5,h6 {
     body {
       font-size: 22px;
     }
+    sup {
+      font-size: 13px;
+    }
     p { 
       margin-bottom: 25px;
     }
@@ -635,6 +638,9 @@ h1,h2,h3,h4,h5,h6 {
     body {
         font-size: 20px;
     }
+    sup {
+      font-size: 13px;
+  }
     p{
        margin-bottom: 20px;
     }
@@ -657,7 +663,8 @@ h1,h2,h3,h4,h5,h6 {
       font-size:24px;
     }
     ol li{
-      padding-left: 35px;
+      line-height: 1.4;
+      padding-bottom: 12px;
     }
     .plr-50 {
       padding-left: 15px!important;
