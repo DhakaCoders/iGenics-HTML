@@ -389,7 +389,7 @@ ol li {
     counter-increment: my-awesome-counter;
     -ms-counter-increment: my-awesome-counter;
     -webkit-counter-increment: my-awesome-counter;
-    padding: 0 0 15px 26px;
+    padding: 0 0 8px 26px;
     line-height: 1.25;
     line-height: 28px;
     position: relative;
