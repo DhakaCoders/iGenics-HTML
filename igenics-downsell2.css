@@ -164,7 +164,7 @@
 .igncsds-sec6-des{
 	width: 57%;
 	padding-left: 60px;
-	padding-top: 20px;
+	padding-top: 22px;
 }
 
 .igncsds-sec7{
@@ -262,6 +262,9 @@
 		border-top: 22px solid #003c5b;
     	border-right: 15px solid transparent;
 	}
+	.igncsds-sec4-inr h4 br{
+		display: none;
+	}
 }
 @media(max-width: 991px){
 	.igncsds-sec2-inr {
@@ -280,7 +283,7 @@
 		width: 100%;
 		margin-left: auto;
 		margin-right: auto;
-		background-image: none;
+		background-image: none!important;
 	}
 	.igncsds-sec2-rgt-img img {
 	    display: block;
@@ -344,8 +347,12 @@
 		display: none;
 	}
 	.igncsds-sec5-img-inr {
-	    height: 450px;
+	    height: auto;
 	    margin-right: -15px;
+	    background-image: none!important;
+	}
+	.igncsds-sec5-img-inr img{
+		display: block;
 	}
 	.igncsds-sec6-hdr h4 br{
 		display: none;
