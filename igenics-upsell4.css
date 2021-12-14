@@ -278,6 +278,7 @@
     .igncs-up-k2-rgt-img-cntlr{
         text-align: center;
     }
+    .igncs-up-k3-rgt-img-cntlr,
     .igncs-up-k6-rgt-img-cntlr,
     .igncs-up-k4-rgt-img-cntlr{
         max-width: 400px;
@@ -320,8 +321,16 @@
     .igncs-up-k3-left-des ul li, .igncs-up-k1-left-des ul li {
         padding-left: 30px;
     }
+    .igncs-up-k7-sec.plr-50 {
+        padding-right: 15px!important;
+    }
 }
 
 @media(max-width: 575px){
-    
+    .igncs-up-k1-arow-img-ctlr{
+        max-width: 60px;
+    }
+    .igncs-up-k1-left-des {
+        padding-top: 30px;
+    }
 }
