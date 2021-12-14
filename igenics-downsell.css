@@ -485,6 +485,9 @@
 		width: 100%;
 		padding-left: 0;
 	}
+	.igncsdm-sec1{
+		padding-bottom: 20px;
+	}
 }
 @media(max-width: 639px){
 	.fl-shipping-col:before{
@@ -553,6 +556,9 @@
 		margin-top: 0;
 		margin-bottom: 12px;
 	}
+	.countdown-title{
+		font-size: 34px!important;
+	}
 }
 @media(max-width: 359px){
 	.fl-shipping strong {
@@ -565,9 +571,9 @@
 		width: 28%;
 	}
 	.fl-shipping-col-02:before {
-		width: 32%;
+		width: 33%;
 	}
 	.fl-shipping-col-02:after {
-		width: 32%;
+		width: 33%;
 	}
 }
