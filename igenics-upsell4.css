@@ -49,6 +49,10 @@
 .igncs-up-k3-left-des p{
     line-height: 1.16;
 }
+.igncs-up-k1-left-des ul li::before,
+.igncs-up-k3-left-des ul li::before{
+    background: url(assets/images/list-yellow-icon.png)!important;
+}
 .igncs-up-k1-left-des ul li:last-child{
     padding-bottom: 0;
 }
