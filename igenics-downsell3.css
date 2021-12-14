@@ -423,7 +423,7 @@
 .fl-pkg-price strong:after {
     content: "";
     position: absolute;
-    width: 17px;
+    width: 16px;
     height: 15px;
     background: #000;
     border-radius: 100%;
