@@ -611,7 +611,7 @@
 						</ul>
 					</nav>
 					<div class="fl-copyright text-center">
-						<p>Copyright 2021 - ScienceGenics - All Rights Reserved</p>
+						<p>Copyright <span id="year"></span> - ScienceGenics - All Rights Reserved</p>
 					</div>
 					<div class="fl-ftr-des text-center">
 						<p>The products and the claims made about specific products on or through this site have not been evaluated by the United States Food and Drug Administration and are not intended to diagnose, treat, cure or prevent disease. The information provided on this site is for informational purposes only and is not intended as a substitute for advice from your physician or other health care professional or any information contained on or in any product label or packaging. You should not use the information on this site for diagnosis or treatment of any health problem or for prescription of any medication or other treatment. You should consult with a healthcare professional before starting any diet, exercise or supplementation program, before taking any medication, or if you have or suspect you might have a health problem.</p>
@@ -623,6 +623,6 @@
 	</div>
 </footer>
 <script src="assets/js/all.js"></script>
-<script type="text/javascript">window.onload = function() {var newd1 = new LazyLoad({elements_selector: ".lazy"});}</script>
+<script type="text/javascript">window.onload = function() { document.getElementById("year").innerHTML = new Date().getFullYear(); var newd1 = new LazyLoad({elements_selector: ".lazy"});}</script>
 </body>
 </html>
