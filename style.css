@@ -1758,7 +1758,8 @@ p strong.yellow{
 	display: none;
 }
 .igncsus-sec3 .igncsds-sec3-lft-img{
-	margin-right: -15px;
+	margin-right: -20px;
+  margin-left: -25px;
 }
 .igncsus-sec3-inr .igncsds-sec3-lft-img{
 	width: 52%;
@@ -2288,6 +2289,7 @@ margin-bottom:40px;
   }
   .igncsus-sec3 .igncsds-sec3-lft-img {
       margin-right: 0;
+      margin-left: 0;
   }
   .igncsus-sec10-img{
     height: 540px;
