@@ -725,7 +725,7 @@ h1,h2,h3,h4,h5,h6 {
 	padding-bottom: 50px;
 }
 .fl-ftr-nav ul {
-    padding-bottom: 25px;
+    padding-bottom: 32px;
     text-align: center;
 }
 .fl-ftr-nav ul li:first-child {
@@ -765,9 +765,6 @@ h1,h2,h3,h4,h5,h6 {
     transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
-}
-.fl-ftr-nav{
-	margin-bottom: 30px;
 }
 .fl-copyright{
 	margin-bottom: 30px;
