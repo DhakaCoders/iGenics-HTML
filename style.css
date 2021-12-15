@@ -1010,6 +1010,10 @@ h1,h2,h3,h4,h5,h6 {
 	background-position: center bottom;
 	background-size: cover
 }
+.igncsds-sec9.igncsus-sec7{
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
 .igncsds-sec9-inr{
 	text-align: center;
 }
@@ -1847,7 +1851,7 @@ p strong.yellow{
 .igncsus-sec10-img{
 	height: 460px;
 	margin-right: -50px;
-	margin-left: -185px;
+	margin-left: -310px;
 }
 .igncsus-sec10-img img{
 	display: none;
