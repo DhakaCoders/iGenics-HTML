@@ -866,6 +866,8 @@ h1,h2,h3,h4,h5,h6 {
 }
 .igncsds-sec3-lft-img{
 	width: 42.5%;
+  margin-left: -25px;
+  margin-right: -20px;
 }
 .igncsds-sec3-rgt-des{
 	width: 57.5%;
@@ -2512,6 +2514,8 @@ margin-bottom:40px;
       width: 100%;
       margin-bottom: 30px;
       text-align: center;
+      margin-left: 0;
+      margin-right: 0;
   }
   .igncsds-sec3-rgt-des {
       width:100%;
