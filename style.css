@@ -3071,7 +3071,9 @@ margin-bottom:40px;
     padding-bottom: 30px;
   }
   .igncsds-sec1.plr-50,
-  .igncsds-sec4.plr-50 {
+  .igncsds-sec4.plr-50,
+  .igncsds-sec8.plr-50,
+  .igncs-n4-sec-heading.plr-50 {
       padding-left: 30px!important;
       padding-right: 30px!important;
   }
@@ -3194,7 +3196,12 @@ margin-bottom:40px;
       margin-left: auto;
       margin-right: auto;
   } 
-
+  .igncs-k5-rgt-img img{
+    width: initial;
+  }
+  .igncs-k5-left-des ul li br{
+    display: none;
+  }
 
   /*upsell css start*/
 
