@@ -443,10 +443,13 @@ h1,h2,h3,h4,h5,h6 {
 	display: none!important;
 }
 /*header*/
-.fl-hdr{
-	background: #fff;
-	-webkit-box-shadow:0px 3px 7px 1px #b4bac3;
-	box-shadow: 0px 3px 7px 1px #b4bac3;
+.fl-hdr {
+    background: #fff;
+    -webkit-box-shadow: 0px -11px 20px 1px #000000;
+    box-shadow: 0px -11px 20px 1px #000000;
+    -moz-box-shadow: 0px -11px 20px 1px #000000;
+    position: relative;
+    z-index: 5;
 }
 .header-innr{
 	display: flex;
@@ -710,8 +713,10 @@ h1,h2,h3,h4,h5,h6 {
 	padding-bottom: 0;
 }
 /*footer start*/
-.fl-footer-wrap{
-	background: #085e8d;
+.fl-footer-wrap {
+    background: #085e8d;
+    position: relative;
+    z-index: 5;
 }
 .fl-footer-inner{
 	padding-top: 50px;
