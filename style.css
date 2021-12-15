@@ -582,7 +582,6 @@ h1,h2,h3,h4,h5,h6 {
 	margin-bottom: 25px;
 }
 .countdown-module{
-	background: #01163a;
 	border: 2px solid #072859;
 	padding-left: 30px;
 	padding-right: 30px;
@@ -591,6 +590,9 @@ h1,h2,h3,h4,h5,h6 {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
+  background-repeat: no-repeat!important;
+  background-position: center center!important;
+  background-size: cover!important;
 }
 .countdown{
 	margin-left: auto;
