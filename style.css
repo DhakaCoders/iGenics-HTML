@@ -1666,6 +1666,7 @@ p strong.yellow{
 .igncs-k5-sec-row-1{
     padding-top: 40px;
     padding-bottom: 35px;
+    background: rgba(5,53,78,0.5);
 }
 .igncs-k5-sec-inr {
     padding-top: 55px;
@@ -1718,6 +1719,7 @@ p strong.yellow{
 .igncs-k5-sec-row-3{
     padding-top: 20px;
     padding-bottom: 20px;
+    background: rgba(5,53,78,0.5);
 }
 .igncs-k5-sec-row-3 .igncs-k5-left-des{
     width: 70%;
