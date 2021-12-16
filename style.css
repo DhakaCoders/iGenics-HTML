@@ -265,6 +265,9 @@ p strong.yellow-bg{
     line-height: 1;
     background-position: center!important;
 }
+.igncs-up-k5-left-des p strong.hide-lg{
+  display: inline-block!important;
+}
 p strong.yellow-bg-lineH{
   line-height: 1.35;
 }
@@ -2222,6 +2225,12 @@ margin-bottom:40px;
   .fl-shipping-col-02:after {
     width: 43%;
   }
+  .igncs-up-k5-left-des p strong.hide-lg{
+    display: none!important;
+  }
+  .igncs-up-k5-left-des p strong.show-lg{
+    display: inline-block!important;
+  }
   .igncsds-sec5-img-inr {
     height: 670px;
     margin-top: -90px;
@@ -2505,6 +2514,7 @@ margin-bottom:40px;
     margin-left: auto;
     margin-right: auto;
     background-image: none!important;
+    height: auto;
   }
   .igncsds-sec2-rgt-img img {
       display: block;
@@ -3457,18 +3467,29 @@ margin-bottom:40px;
   }
 }
 @media(max-width: 479px){
+  .countdown-module {
+    padding: 30px 8px;
+  }
+  .countdown{
+    padding-left: 0;
+  }
   #timer{
-    margin: 0;
-    display: block;
+    margin: 0 0;
+    flex-wrap: nowrap;
   }
   #minutes,
   #seconds,
   #hours{
-    padding: 0;
+    padding: 0 0;
     margin-bottom: 25px;
   }
-  #seconds{
-    margin-bottom: 0;
+  .timer-digits span:first-of-type {
+    margin-right: 5px;
+  }
+  .timer-digits span{
+    width: 40px;
+    height: 50px;
+    font-size: 33px;
   }
   .timer-in{
     display: flex;
@@ -3477,12 +3498,14 @@ margin-bottom:40px;
   }
   .timer-digits{
     order: 2;
+    flex-wrap: nowrap;
   }
   .timer-label{
     order: 1;
     width: 100%;
     margin-top: 0;
     margin-bottom: 12px;
+    font-size: 18px;
   }
   .countdown-title{
     font-size: 34px!important;
@@ -3570,5 +3593,16 @@ margin-bottom:40px;
   .fl-pkg-grd-ftr {
       padding-left: 15px;
       padding-right: 15px;
+  }
+  .timer-digits span {
+    width: 34px;
+    height: 44px;
+    font-size: 27px;
+  }
+  .timer-digits span:first-of-type {
+    margin-right: 3px;
+  }
+  .timer-label{
+    font-size: 16px;
   }
 }
