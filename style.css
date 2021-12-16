@@ -559,7 +559,11 @@ h1,h2,h3,h4,h5,h6 {
 	background-size: cover!important;
 }
 .countdown-cntlr-inr{
-	max-width: 662px;
+	max-width: 797px;
+}
+.countdown-cntlr-inr-text,
+.no-days{
+  max-width: 662px;
 }
 .countdown-title{
 	color: #fff;
@@ -580,15 +584,23 @@ h1,h2,h3,h4,h5,h6 {
 	padding-right: 30px;
 	padding-top: 18px;
 	padding-bottom: 17px;
-	display: flex;
+	display: inline-flex;
 	flex-wrap: wrap;
 	align-items: center;
   background-repeat: no-repeat!important;
   background-position: center center!important;
   background-size: cover!important;
 }
+.no-days #days,
+#days{
+  display: none;
+}
+.has-days #days{
+  display: block;
+}
 .countdown{
 	margin-left: auto;
+  padding-left: 15px;
 }
 .countdown-module-lft{
 	padding-right: 15px;
@@ -601,6 +613,9 @@ h1,h2,h3,h4,h5,h6 {
 	align-items: center;
 	flex-wrap: wrap;
 	margin: 0 -13px;
+}
+#days{
+  padding: 0 13px;
 }
 #hours{
 	padding: 0 13px;
@@ -619,6 +634,7 @@ h1,h2,h3,h4,h5,h6 {
 .timer-digits span{
 	font-size: 38px;
 	margin-bottom: 0;
+  background-image: url("assets/images/counter-digit-bg.png");
 	background-position: center center!important;
 	background-repeat: no-repeat!important;
 	background-size: 100% 100%!important;

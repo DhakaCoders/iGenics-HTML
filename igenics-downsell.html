@@ -624,5 +624,67 @@
 </footer>
 <script src="assets/js/all.js"></script>
 <script type="text/javascript">window.onload = function() { document.getElementById("year").innerHTML = new Date().getFullYear(); var newd1 = new LazyLoad({elements_selector: ".lazy"});}</script>
+<script>
+// Set the date we're counting down to
+//var countDownDate = new Date("Dec 19, 2021 21:6:25").getTime();
+var dt = new Date();
+dt.setHours( dt.getHours() + 2 );
+dt.setMinutes(dt.getMinutes() + 30);
+var countDownDate = dt.getTime();
+function needSpan($num){
+  snum = $num.toString();
+  output = [];
+  outputr = '';
+  for (var i = 0, len = snum.length; i < len; i += 1) {
+      output.push(+snum.charAt(i));
+  }
+  for (var i = 0; i < output.length; i++) {
+    outputr += "<span>"+output[i] + "</span>";
+  }
+  return outputr;
+}
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  if( days < 10 && days > 0 ) var dayu = '0'+days; else dayu = days;
+  if( hours < 10 ) var houru = '0'+hours; else houru = hours;
+  if( minutes < 10 ) var minuteu = '0'+minutes; else minuteu = minutes;
+  if( seconds < 10 ) var secondu = '0'+seconds; else secondu = seconds;
+  var dayuS = needSpan(dayu);
+  var houruS = needSpan(houru);
+  var minuteuS = needSpan(minuteu);
+  var seconduS = needSpan(secondu);
+
+  // Display the result in the element with id="demo"
+  //document.getElementById("demo").innerHTML = dayuS + "d " + houruS + "h " + minuteuS + "m " + seconduS + "s ";
+  if( days !== 0 ){
+    $('.countdown-module').addClass('has-days');
+    $('#timer #days .timer-digits').html(dayuS);
+  }else{
+    $('.countdown-module').removeClass('has-days').addClass('no-days');
+  }
+  $('#timer #hours .timer-digits').html(houruS);
+  $('#timer #minutes .timer-digits').html(minuteuS);
+  $('#timer #seconds .timer-digits').html(seconduS);
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
 </body>
 </html>
