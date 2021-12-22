@@ -71,7 +71,7 @@
         					</div>
         					<div class="countdown">
         						<div id="timer">
-        							<div id="hours">
+        							<div id="hours" style="display: none;">
         								<div class="timer-in">
         									<div class="timer-digits"><span class="lazy" data-src="assets/images/counter-digit-bg.png">0</span><span class="lazy" data-src="assets/images/counter-digit-bg.png">9</span></div>
         									<div class="timer-label">Hours</div>
@@ -79,14 +79,14 @@
         							</div>
         							<div id="minutes">
         								<div class="timer-in">
-        									<div class="timer-digits"><span class="lazy" data-src="assets/images/counter-digit-bg.png">5</span><span class="lazy" data-src="assets/images/counter-digit-bg.png">9</span></div>
+        									<div class="timer-digits"><span class="lazy" data-src="assets/images/counter-digit-bg.png">0</span><span class="lazy" data-src="assets/images/counter-digit-bg.png">9</span></div>
         									<div class="timer-label">Minutis</div>
         								</div>
         							</div>
         							<div id="seconds">
         								<div class="timer-in">
-        									<div class="timer-digits"><span class="lazy" data-src="assets/images/counter-digit-bg.png">4</span><span class="lazy" data-src="assets/images/counter-digit-bg.png">9</span></div>
-        									<div class="timer-label">Sec0nd</div>
+        									<div class="timer-digits"><span class="lazy" data-src="assets/images/counter-digit-bg.png">5</span><span class="lazy" data-src="assets/images/counter-digit-bg.png">9</span></div>
+        									<div class="timer-label">Second</div>
         								</div>
         							</div>
         						</div>
@@ -633,9 +633,11 @@
 // Set the date we're counting down to
 //var countDownDate = new Date("Dec 19, 2021 21:6:25").getTime();
 var dt = new Date();
-dt.setHours( dt.getHours() + 2 );
-dt.setMinutes(dt.getMinutes() + 30);
+dt.setHours( dt.getHours() + 0 );
+dt.setMinutes(dt.getMinutes() + 10);
+dt.setSeconds(dt.getSeconds() + 0);
 var countDownDate = dt.getTime();
+
 function needSpan($num){
   snum = $num.toString();
   output = [];
@@ -648,6 +650,8 @@ function needSpan($num){
   }
   return outputr;
 }
+
+var secStore = 59;
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -663,10 +667,17 @@ var x = setInterval(function() {
   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  if( secStore == seconds ){
+    seconds == (seconds-1);
+    secStore = seconds;
+  }
+
   if( days < 10 && days > 0 ) var dayu = '0'+days; else dayu = days;
   if( hours < 10 ) var houru = '0'+hours; else houru = hours;
   if( minutes < 10 ) var minuteu = '0'+minutes; else minuteu = minutes;
   if( seconds < 10 ) var secondu = '0'+seconds; else secondu = seconds;
+  //console.log('top-'+seconds);
   var dayuS = needSpan(dayu);
   var houruS = needSpan(houru);
   var minuteuS = needSpan(minuteu);
@@ -674,20 +685,23 @@ var x = setInterval(function() {
 
   // Display the result in the element with id="demo"
   //document.getElementById("demo").innerHTML = dayuS + "d " + houruS + "h " + minuteuS + "m " + seconduS + "s ";
-  if( days !== 0 ){
-    $('.countdown-module').addClass('has-days');
-    $('#timer #days .timer-digits').html(dayuS);
-  }else{
-    $('.countdown-module').removeClass('has-days').addClass('no-days');
+  if (distance > 0) {
+    if( days !== 0 ){
+      $('.countdown-module').addClass('has-days');
+      $('#timer #days .timer-digits').html(dayuS);
+    }else{
+      $('.countdown-module').removeClass('has-days').addClass('no-days');
+    }
+    $('#timer #hours .timer-digits').html(houruS);
+    $('#timer #minutes .timer-digits').html(minuteuS);
+    $('#timer #seconds .timer-digits').html(seconduS);
   }
-  $('#timer #hours .timer-digits').html(houruS);
-  $('#timer #minutes .timer-digits').html(minuteuS);
-  $('#timer #seconds .timer-digits').html(seconduS);
+  //console.log(seconds);
 
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    //document.getElementById("demo").innerHTML = "EXPIRED";
   }
 }, 1000);
 </script>
